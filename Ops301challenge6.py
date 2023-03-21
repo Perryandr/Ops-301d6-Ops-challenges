@@ -15,17 +15,17 @@ import os
 
 
 # Execute bash commands and store their output in variables
-whoami_output = os.popen('whoami').read().strip()
-ip_output = os.popen('ip a').read().strip()
-lshw_output = os.popen('lshw -short').read().strip()
+who = os.popen('whoami')
+ip = os.popen('ip a')
+lshw = os.popen('lshw -short')
 
 # I kept getting error messages when using os.system, somewhere I seen os.popen was a better alternative. 
 
 
 # Print the output of the commands
-print("Current user: ", whoami_output)
-print("IP addresses: \n", ip_output)
-print("Hardware information: \n", lshw_output)
+print("Current user: ", who)
+print("IP addresses: \n", ip)
+print("Hardware information: \n", lshw)
 
 # Aid for the assignment goes to Ethan's demo and the links posted in the ops challenge.
 
