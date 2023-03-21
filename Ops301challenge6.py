@@ -15,9 +15,9 @@ import os
 
 
 # Execute bash commands and store their output in variables
-who = os.popen('whoami')
-ip = os.popen('ip a')
-lshw = os.popen('lshw -short')
+who = os.popen('whoami').read().strip()
+ip = os.popen('ip a').read().strip()
+lshw = os.popen('lshw -short').read().strip()
 
 # I kept getting error messages when using os.system, somewhere I seen os.popen was a better alternative. 
 
