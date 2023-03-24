@@ -9,8 +9,8 @@
 
 
 # Create an if statement using using logical conditions.
-a = 7
-b = 7
+a = 1 
+b = 1
 
 if a != b:
     print("a is not equal to b")
