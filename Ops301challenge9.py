@@ -5,7 +5,9 @@
 # Date of lastest revision: 03/24/2023
 # Purpose: Code Fellows requires it to pass class.
 
-
+# Credit for resources and reference goes to Code academy and itsolutionstuff. 
+# https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-files/cheatsheet
+# https://www.itsolutionstuff.com/post/how-to-create-multiline-text-file-in-pythonexample.html
 
 # Create if an statement using a==b or not equals a!=b
 a = 1
