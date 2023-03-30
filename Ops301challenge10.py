@@ -34,6 +34,6 @@ with open("test.txt", "w") as f:
     print(line1)
     
  
-os.remove(journey.txt")    
+os.remove("test.txt")    
     
     
