@@ -12,7 +12,7 @@ import os
 import datetime
 # Here the code is creating a signature and defining it. Any lines with my comments pertaining to the assignment will be marked with ###.
 
-
+### This looks to be a signature or a specific marking to identify something.
 SIGNATURE = "VIRUS"
 
 ###This first define is focused on a file path.
@@ -24,7 +24,8 @@ def locate(path):
         if os.path.isdir(path+"/"+fname):
             files_targeted.extend(locate(path+"/"+fname))
             
-     ###Here is looks like it wants to find files with the extension ".py". It looks like it wants to infect specificially python scripts.      
+     ###Here is looks like it wants to find files with the extension ".py". It looks like it wants to infect specificially python scripts. It is also checking for 
+    ### specific signature. I am guessing the one above.
         elif fname[-3:] == ".py":
             infected = False
             for line in open(path+"/"+fname):
